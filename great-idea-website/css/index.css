@@ -65,4 +65,170 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	padding-top: 20px;
+	padding-left: 5%;
+}
+
+/* header layout */
+.nav-container {
+	display: inline-block;
+}
+
+.nav-links {
+	display: inline-block;
+	text-align: left;
+	width: 693px;
+}
+
+.nav-link {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+a.nav-link {
+	text-decoration: none;
+	color: lightslategrey;
+	font-weight: bold;
+	font-size: 85%;
+}
+
+a.nav-link:hover {
+	color: blue;
+}
+
+.nav-logo {
+	display: inline-block;
+	width: 183px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+/* section slide layout */
+.slide-container {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.slide-text {
+	display: inline-block;
+	width: 438px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Bangers', cursive;
+	font-size: 48px;
+	line-height: 1.2;
+}
+
+.slide-button {
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 13px;
+	padding: 5px 20px 5px 20px;
+	border: 1px solid black;
+}
+
+a.slide-button {
+	text-decoration: none;
+	color: lightslategray;
+	font-weight: bold;
+}
+
+a.slide-button:hover {
+	text-decoration: none;
+	background-color: lightslategrey;
+	color: blue;
+}
+
+.slide-img {
+	display: inline-block;
+	width: 438px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* content layout */
+.content-container {
+	margin-top: 40px;
+	width: auto;
+}
+
+.row-1 {
+	display: inline-block;
+	border-top: 2px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.col-features {
+	display: inline-block;
+	width: 438px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.col-about {
+	display: inline-block;
+	width: 438px;
+	padding-left: 10px;
+	text-align: justify;
+}
+
+.row-2 {
+	display: inline-block;
+}
+
+.row-3 {
+	display: inline-block;
+	border-bottom: 2px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.col-services {
+	display: inline-block;
+	width: 292px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.col-product {
+	display: inline-block;
+	width: 292px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.col-vision {
+	display: inline-block;
+	width: 292px;
+	padding-left: 10px;
+	text-align: justify;
+}
+
+/* footer layout */
+.footer-container {
+	width: auto;
+}
+
+.contact-1 {
+	display: block;
+	width: 876px;
+	padding-top: 20px;
+}
+
+.copyright {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: inline-block;
+	width: 876px;
+	text-align: center;
+}
+
+
+
+
+
+
 /* Pull Request testing */
